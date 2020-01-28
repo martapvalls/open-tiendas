@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/b7c4da1ddd.js" crossorigin="anonymous"></script>
+    <title>OpenTiendas</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <img class="header__logo" src="logo_OpenTiendas.png" alt="logo">
+    </header>
+
+    <section class="contact">
+        <h2 class="contact__title">Envíanos tu mensaje</h2>
+        <form class="contact__form"> 
+            <label class="contact__label">Nombre *</label>
+            <input class="contact__field" type="text" name="name" required/>
+            <label class="contact__label">E-mail *</label>
+            <input class="contact__field" type="text" name="email" required/>
+            <label class="contact__label">Teléfono *</label>
+            <input class="contact__field" type="text" name="telf"/>
+            <label class="contact__label">Observaciones *</label>
+            <input class="contact__field contact__comment" type="text" name="comments" required/>
+        </form>
+        <button class="contact__send"> <i class="fas fa-paper-plane"></i>Enviar</button>
+    </section>
+</body>
+
+</html>

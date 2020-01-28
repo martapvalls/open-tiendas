@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(#f8f9fa 0, #f8f9fa 28%, #a8a9a9 28%, #a8a9a9 50%, #f8f9fa 50%);
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  background-color: white;
+}
+.header__logo {
+  height: 80%;
+}
+
+.contact {
+  border: 1px solid black;
+  width: 25%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px #a8a9a9;
+}
+.contact__title {
+  color: #f13030;
+  border-bottom: 1px solid #d7dce0;
+  width: 98%;
+  height: 14%;
+  align-self: center;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+.contact__form {
+  height: 60%;
+  width: 90%;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
+}
+.contact__field {
+  width: 47%;
+  height: 14%;
+  border: 1px solid #d7dce0;
+}
+.contact__label {
+  margin-top: 2%;
+  height: 12%;
+}
+.contact__comment {
+  height: 73%;
+}
+.contact__send {
+  color: white;
+  background-color: #f13030;
+  width: 95%;
+  border-radius: 5px;
+  height: 15%;
+  align-self: center;
+  font-size: 1.3em;
+  margin-bottom: 3%;
+}
+
+.fa-paper-plane {
+  padding-right: 4%;
+}
+
+/*# sourceMappingURL=index.css.map */
