@@ -23,12 +23,12 @@
             <input class="contact__field" type="text" name="name" required/>
             <label class="contact__label">E-mail *</label>
             <input class="contact__field" type="text" name="email" required/>
-            <label class="contact__label">Teléfono *</label>
+            <label class="contact__label">Teléfono</label>
             <input class="contact__field" type="text" name="telf"/>
-            <label class="contact__label">Observaciones *</label>
-            <input class="contact__field contact__comment" type="text" name="comments" required/>
+            <label class="contact__label contact__comments">Observaciones *</label>
+            <textarea class="contact__comment" name="comments" id="comments" maxlength="500" required></textarea>
+            <button class="contact__send"> <i class="fas fa-paper-plane"></i>Enviar</button>
         </form>
-        <button class="contact__send"> <i class="fas fa-paper-plane"></i>Enviar</button>
     </section>
 </body>
 
