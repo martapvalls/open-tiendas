@@ -18,18 +18,26 @@
 
     <section class="contact">
         <h2 class="contact__title">Envíanos tu mensaje</h2>
-        <form class="contact__form"> 
+        <form class="contact__form">
             <label class="contact__label">Nombre *</label>
-            <input class="contact__field" type="text" name="name" required/>
+            <input class="contact__field" type="text" name="name" required />
             <label class="contact__label">E-mail *</label>
-            <input class="contact__field" type="text" name="email" required/>
+            <input class="contact__field" type="text" name="email" required />
             <label class="contact__label">Teléfono</label>
-            <input class="contact__field" type="text" name="telf"/>
+            <input class="contact__field" type="text" name="telf" />
             <label class="contact__label contact__comments">Observaciones *</label>
             <textarea class="contact__comment" name="comments" id="comments" maxlength="500" required></textarea>
             <button class="contact__send"> <i class="fas fa-paper-plane"></i>Enviar</button>
         </form>
     </section>
+
+    <section class="confirmation">
+        <i class="fas fa-check-circle confirmation__icon"></i>
+        <span class="confirmation__message"> Enviado correctamente </span>
+        <span class="confirmation__date"></span>
+    </section>
+
+<script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>

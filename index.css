@@ -90,6 +90,39 @@ body {
   margin-bottom: 3%;
 }
 
+.confirmation {
+  display: none;
+  width: 30%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  background-color: white;
+  height: 38%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  animation: fadeIn 1s ease-in both;
+}
+.confirmation__icon {
+  color: green;
+  font-size: 12rem;
+  padding-bottom: 4%;
+}
+.confirmation__message {
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(-50%, -60%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(-50%, -52%, 0);
+  }
+}
 .fa-paper-plane {
   padding-right: 4%;
 }
@@ -114,6 +147,10 @@ body {
     padding: 0;
     margin: 0;
     grid-row: span 7;
+  }
+
+  .confirmation {
+    width: 85%;
   }
 }
 @media only screen and (max-width: 767px) {
